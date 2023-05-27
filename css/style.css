@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(204, 209, 127);
+}
+
+.fondo {
+    margin: 100px auto;
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(49, 201, 107);
+    border: 20px solid white;
+    padding: 10px;
+    position: relative;
+}
+
+.fondo .cara {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    z-index: 2;
+}
+
+.fondo .sombrero {
+    position: absolute;
+    left: 38%;
+    top: 20%;
+    z-index: 4;
+    transition: 1s;
+}
+
+
+.fondo .sombrero:hover {
+ transform: translateY(-30px);
+}
+
+.fondo .bigote {
+    position: absolute;
+    position: absolute;
+    right: 41%;
+    top: 60%;
+    z-index: 3;
+}
+
+.fondo .nariz {
+    position: absolute;
+    right: 43%;
+    top: 45%;
+    z-index: 4;
+transition: 0.3s ease-in-out; 
+}
+.fondo .nariz:hover{
+cursor: pointer;
+transform: translateY(-20px);
+   
+} 
+
+
+.fondo .ojoIzq {
+    position:absolute;
+    left: 41.5%;
+    top: 38%;
+    z-index: 3;
+    transition: 0.4s ease-in-out;
+}
+.fondo .ojoIzq:hover{
+    transform: translateX(100px);
+
+}
+
+.fondo .ojoDer {
+    position: absolute;
+    right: 41.5%;
+    top: 38%;
+    z-index: 3;
+}
+
+.fondo .pieIzq {
+    position: absolute;
+    right: 50%;
+    bottom: 20%;
+    z-index: 1;
+    transition: 1s;
+}
+.fondo .pieIzq:hover{
+    transform:  translateX(-20px);
+}
+
+.fondo .pieDer {
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+    z-index: 1;
+    transition: 1s;
+}
+.fondo .pieDer:hover{
+    transform:  translateX(20px);
+}
+
+.fondo .orejaIzq {
+    position: absolute;
+    left: 32%;
+    top: 35%;
+    z-index: 1;
+    transition: 1s;
+}
+.fondo .orejaDer:hover{
+    transform:  translateX(20px);
+}
+
+.fondo .orejaDer {
+    position: absolute;
+    right: 32%;
+    top: 35%;
+    z-index: 1;
+    transition: 1s;
+}
+.fondo .orejaIzq:hover{
+    transform:  translateX(-20px);
+}
